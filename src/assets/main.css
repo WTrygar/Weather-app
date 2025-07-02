@@ -1,7 +1,12 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
-  --color-midnight: #121063;
-  --color-tahiti: #3ab7bf;
+  --color-weather-primary: #00668a;
+  --color-weather-secondary: #004e71;
   --color-bermuda: #78dcca;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+
+  --font-roboto: Roboto, sans-serif;
 }
